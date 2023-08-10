@@ -1,0 +1,2959 @@
+# Loading project q
+vlog
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:29 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:28:29 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 15:28:34 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/test4
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+quit -sim
+# End time: 15:28:57 on Aug 10,2023, Elapsed time: 0:00:23
+# Errors: 1, Warnings: 2
+cd ..
+# reading /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+cd test3
+run -all
+# No Design Loaded!
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:29:15 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:29:15 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 15:29:23 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:30:45 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:30:45 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:30:46 on Aug 10,2023, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 1
+# vsim tb_top 
+# Start time: 15:30:46 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error: invalid command name "*"
+# Error in macro ./run.do line 3
+# invalid command name "*"
+#     while executing
+# "* add wave -position insertpoint sim:/tb_top/counter_intf/*"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:31:03 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:31:03 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:31:04 on Aug 10,2023, Elapsed time: 0:00:18
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 15:31:04 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:36:38 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:36:38 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:36:38 on Aug 10,2023, Elapsed time: 0:05:34
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 15:36:38 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# Load test FAILED
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# Load test FAILED
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# Load test PASS
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:37:51 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:37:51 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:37:52 on Aug 10,2023, Elapsed time: 0:01:14
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 15:37:52 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# Load test FAILED
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# 
+# Load test FAILED
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# Load test PASS
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:20 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:38:21 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 15:38:21 on Aug 10,2023, Elapsed time: 0:00:29
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 15:38:21 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# 
+# 
+# Load test PASS
+# 
+# 
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:40:20 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:40:20 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:40:20 on Aug 10,2023, Elapsed time: 0:01:59
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 15:40:20 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# 
+# 
+# Load test PASS
+# 
+# 
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:43:19 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error (suppressible): counter_scoreboard.sv(27): (vlog-7027) The name ('rcv_pkt.load') was not found in the current scope.  Please verify the spelling of the name 'rcv_pkt.load'.
+# ** Error (suppressible): counter_scoreboard.sv(27): (vlog-7027) The name ('rcv_pkt.enable') was not found in the current scope.  Please verify the spelling of the name 'rcv_pkt.enable'.
+# ** Error (suppressible): counter_scoreboard.sv(27): (vlog-7027) The name ('rcv_pkt.reset') was not found in the current scope.  Please verify the spelling of the name 'rcv_pkt.reset'.
+# ** Error (suppressible): counter_scoreboard.sv(28): (vlog-7027) The name ('rcv_pkt.data_in') was not found in the current scope.  Please verify the spelling of the name 'rcv_pkt.data_in'.
+# ** Error (suppressible): counter_scoreboard.sv(28): (vlog-7027) The name ('rcv_pkt.data_out') was not found in the current scope.  Please verify the spelling of the name 'rcv_pkt.data_out'.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 15:43:19 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:43:56 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:43:56 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:43:57 on Aug 10,2023, Elapsed time: 0:03:37
+# Errors: 2, Warnings: 1
+# vsim tb_top 
+# Start time: 15:43:57 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# 
+# 
+# Load test PASS
+# 
+# 
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:52:15 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(45): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_environment.sv(8): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_environment.sv(15): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(8): Illegal declaration after the statement near line '5'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(10): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(12): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(50): near "endtask": syntax error, unexpected endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./tb_top.sv(23): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ./tb_top.sv(23): Checker 'counter_interface' not found.  Instantiation 'counter_intf' must be of a visible checker.
+# 
+# ** Error: ./tb_top.sv(34): Checker 'counter' not found.  Instantiation 'DUT' must be of a visible checker.
+# 
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(48): near "endmodule": syntax error, unexpected endmodule.
+# End time: 15:52:15 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:52:17 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(45): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_environment.sv(8): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_environment.sv(15): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(8): Illegal declaration after the statement near line '5'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(10): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(12): near "endfunction": syntax error, unexpected endfunction.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(8)
+# ** at counter_test.sv(50): near "endtask": syntax error, unexpected endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ./tb_top.sv(23): (vlog-2730) Undefined variable: 'clk'.
+# ** Error: ./tb_top.sv(23): Checker 'counter_interface' not found.  Instantiation 'counter_intf' must be of a visible checker.
+# 
+# ** Error: ./tb_top.sv(34): Checker 'counter' not found.  Instantiation 'DUT' must be of a visible checker.
+# 
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(48): near "endmodule": syntax error, unexpected endmodule.
+# End time: 15:52:17 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 14, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:52:24 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:52:24 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:52:25 on Aug 10,2023, Elapsed time: 0:08:28
+# Errors: 3, Warnings: 1
+# vsim tb_top 
+# Start time: 15:52:25 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# 
+# 
+# Load test PASS
+# 
+# 
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:52:50 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:52:50 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:52:50 on Aug 10,2023, Elapsed time: 0:00:25
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 15:52:50 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# 
+# 
+# Load test PASS
+# 
+# 
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+quit -sim
+# End time: 15:56:37 on Aug 10,2023, Elapsed time: 0:03:47
+# Errors: 1, Warnings: 1
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:56:38 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:56:38 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 15:56:38 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# Reset FAILED
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# Reset FAILED
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# Reset FAILED
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# Reset FAILED
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Reset FAILED
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# Reset FAILED
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# Reset FAILED
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# Reset FAILED
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# Reset FAILED
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# Reset FAILED
+# 
+# 
+# Load test PASS
+# 
+# 
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# Reset FAILED
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# Reset FAILED
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# Reset FAILED
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# Reset SUCCESSFULL
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:58:13 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:58:13 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:58:14 on Aug 10,2023, Elapsed time: 0:01:36
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 15:58:14 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# 
+# 
+# Load test FAILED
+# 
+# 
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# 
+# 
+# Load test PASS
+# 
+# 
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# 
+# 
+# Reset FAILED
+# 
+# 
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# Reset SUCCESSFULL
+# 
+# 
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:44 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error (suppressible): counter_scoreboard.sv(30): (vlog-2122) Invalid format specification '%0'.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 17:27:44 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:51 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: counter_scoreboard.sv(30): (vlog-2123) Missing argument for format specification '%t'.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 17:27:51 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:52 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:27:52 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:27:53 on Aug 10,2023, Elapsed time: 1:29:39
+# Errors: 3, Warnings: 1
+# vsim tb_top 
+# Start time: 17:27:53 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:31:20 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:31:21 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:31:21 on Aug 10,2023, Elapsed time: 0:03:28
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 17:31:21 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 FAIL :: Load data compare fail. Compare : Data_in:20 | Data_out4
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:32:05 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:32:05 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:32:06 on Aug 10,2023, Elapsed time: 0:00:45
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 17:32:06 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 FAIL :: Load data compare fail. Compare : Data_in:20 | Data_out4
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:56 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(37): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(45): near "else": syntax error, unexpected else.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 17:38:56 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:39:01 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(37): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(45): near "else": syntax error, unexpected else.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 17:39:01 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:18 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(45): near "else": syntax error, unexpected else.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 17:40:18 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:21 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(45): near "else": syntax error, unexpected else.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 17:40:21 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:35 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_scoreboard.sv(45): near "else": syntax error, unexpected else.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 17:40:36 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:54 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:40:55 on Aug 10,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 17:40:55 on Aug 10,2023, Elapsed time: 0:08:49
+# Errors: 6, Warnings: 1
+# vsim tb_top 
+# Start time: 17:40:55 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 PASS: up_count test pass
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 PASS: up_count test pass
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 PASS: up_count test pass
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 FAIL :: Load data compare fail. Compare : Data_in:20 | Data_out4
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @180000 PASS: up_count test pass
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     6
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 FAIL: up_count test Fail, Compare: PREV_DATA:     6 | CURRENT_DATA:     5
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     4
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 FAIL: up_count test Fail, Compare: PREV_DATA:     4 | CURRENT_DATA:     3
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 FAIL: up_count test Fail, Compare: PREV_DATA:    32 | CURRENT_DATA:    31
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 FAIL: up_count test Fail, Compare: PREV_DATA:    31 | CURRENT_DATA:    30
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 FAIL: up_count test Fail, Compare: PREV_DATA:    30 | CURRENT_DATA:    29
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:36 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:41:36 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:41:37 on Aug 10,2023, Elapsed time: 0:00:42
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 17:41:37 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 FAIL: up_count test Fail, Compare: PREV_DATA:     x | CURRENT_DATA:     0
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 PASS: up_count test pass
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 PASS: up_count test pass
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 PASS: up_count test pass
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 FAIL :: Load data compare fail. Compare : Data_in:20 | Data_out4
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# @180000 PASS: up_count test pass
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     6
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 FAIL: up_count test Fail, Compare: PREV_DATA:     6 | CURRENT_DATA:     5
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     4
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 FAIL: up_count test Fail, Compare: PREV_DATA:     4 | CURRENT_DATA:     3
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 FAIL: up_count test Fail, Compare: PREV_DATA:    32 | CURRENT_DATA:    31
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 FAIL: up_count test Fail, Compare: PREV_DATA:    31 | CURRENT_DATA:    30
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 FAIL: up_count test Fail, Compare: PREV_DATA:    30 | CURRENT_DATA:    29
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 FAIL: up_count test Fail, Compare: PREV_DATA:    29 | CURRENT_DATA:     0
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:03 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:42:03 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:42:04 on Aug 10,2023, Elapsed time: 0:00:27
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 17:42:04 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @40000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @60000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @80000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# 
+# 
+# @100000 PASS: up_count test pass
+# 
+# 
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# 
+# 
+# @120000 PASS: up_count test pass
+# 
+# 
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# 
+# 
+# @140000 PASS: up_count test pass
+# 
+# 
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 FAIL :: Load data compare fail. Compare : Data_in:20 | Data_out4
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# 
+# 
+# @180000 PASS: up_count test pass
+# 
+# 
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# 
+# 
+# @200000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     6
+# 
+# 
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# 
+# 
+# @220000 FAIL: up_count test Fail, Compare: PREV_DATA:     6 | CURRENT_DATA:     5
+# 
+# 
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# 
+# 
+# @240000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     4
+# 
+# 
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# 
+# 
+# @260000 FAIL: up_count test Fail, Compare: PREV_DATA:     4 | CURRENT_DATA:     3
+# 
+# 
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# 
+# 
+# @300000 FAIL: up_count test Fail, Compare: PREV_DATA:    32 | CURRENT_DATA:    31
+# 
+# 
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# 
+# 
+# @320000 FAIL: up_count test Fail, Compare: PREV_DATA:    31 | CURRENT_DATA:    30
+# 
+# 
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# 
+# 
+# @340000 FAIL: up_count test Fail, Compare: PREV_DATA:    30 | CURRENT_DATA:    29
+# 
+# 
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @380000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @400000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @420000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @440000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @460000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @480000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @500000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @520000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @540000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:42:44 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:42:44 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:42:44 on Aug 10,2023, Elapsed time: 0:00:40
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 17:42:45 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @40000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @60000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @80000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# 
+# 
+# @100000 PASS: up_count test pass
+# 
+# 
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# 
+# 
+# @120000 PASS: up_count test pass
+# 
+# 
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# 
+# 
+# @140000 PASS: up_count test pass
+# 
+# 
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 FAIL :: Load data compare fail. Compare : Data_in:20 | Data_out4
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# 
+# 
+# @180000 PASS: up_count test pass
+# 
+# 
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# 
+# 
+# @200000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     6
+# 
+# 
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# 
+# 
+# @220000 FAIL: up_count test Fail, Compare: PREV_DATA:     6 | CURRENT_DATA:     5
+# 
+# 
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# 
+# 
+# @240000 FAIL: up_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     4
+# 
+# 
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# 
+# 
+# @260000 FAIL: up_count test Fail, Compare: PREV_DATA:     4 | CURRENT_DATA:     3
+# 
+# 
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# 
+# 
+# @300000 FAIL: up_count test Fail, Compare: PREV_DATA:    32 | CURRENT_DATA:    31
+# 
+# 
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# 
+# 
+# @320000 FAIL: up_count test Fail, Compare: PREV_DATA:    31 | CURRENT_DATA:    30
+# 
+# 
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# 
+# 
+# @340000 FAIL: up_count test Fail, Compare: PREV_DATA:    30 | CURRENT_DATA:    29
+# 
+# 
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @380000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @400000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @420000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @440000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @460000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @480000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @500000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @520000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @540000 FAIL: up_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:49:28 on Aug 10,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 17:49:28 on Aug 10,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:49:29 on Aug 10,2023, Elapsed time: 0:06:44
+# Errors: 1, Warnings: 1
+# vsim tb_top 
+# Start time: 17:49:29 on Aug 10,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 9
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 9
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# drive reset to 0
+# @20000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @20000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @40000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @40000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @40000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @60000 MNTR_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# @60000 RCV_PKT :: '{data_in:32, load:1, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @60000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @80000 MNTR_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @80000 RCV_PKT :: '{data_in:32, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @80000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @100000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# @100000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:1}
+# 
+# 
+# @100000 PASS: up_count test pass
+# 
+# 
+# set load value
+# @120000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# @120000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:2}
+# 
+# 
+# @120000 PASS: up_count test pass
+# 
+# 
+# @140000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# @140000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:3}
+# 
+# 
+# @140000 PASS: up_count test pass
+# 
+# 
+# up test
+# @160000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:1, reset:1, data_out:4}
+# @160000 FAIL :: Load data compare fail. Compare : Data_in:20 | Data_out4
+# @180000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# Down test
+# @180000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:1, reset:1, data_out:5}
+# 
+# 
+# @180000 PASS: up_count test pass
+# 
+# 
+# @200000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# @200000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:6}
+# 
+# 
+# @200000 FAIL: down_count test Fail, Compare: PREV_DATA:     5 | CURRENT_DATA:     6
+# 
+# 
+# @220000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# @220000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:5}
+# 
+# 
+# @220000 PASS: down_count test pass
+# 
+# 
+# @240000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# @240000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:4}
+# 
+# 
+# @240000 PASS: down_count test pass
+# 
+# 
+# @260000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# @260000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:3}
+# 
+# 
+# @260000 PASS: down_count test pass
+# 
+# 
+# @280000 MNTR_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 RCV_PKT :: '{data_in:32, load:1, enable:1, up_down:0, reset:1, data_out:32}
+# @280000 PASS:: Load Data compare pass
+# @300000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# @300000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:31}
+# 
+# 
+# @300000 PASS: down_count test pass
+# 
+# 
+# @320000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# @320000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:30}
+# 
+# 
+# @320000 PASS: down_count test pass
+# 
+# 
+# @340000 MNTR_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# @340000 RCV_PKT :: '{data_in:32, load:0, enable:1, up_down:0, reset:1, data_out:29}
+# 
+# 
+# @340000 PASS: down_count test pass
+# 
+# 
+# @360000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @360000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:0, data_out:0}
+# @380000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @380000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @380000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @400000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @400000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @400000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @420000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @420000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @420000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @440000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @440000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @440000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @460000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @460000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @460000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @480000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @480000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @480000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @500000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @500000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @500000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @520000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @520000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @520000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# @540000 MNTR_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# @540000 RCV_PKT :: '{data_in:0, load:0, enable:0, up_down:0, reset:1, data_out:0}
+# 
+# 
+# @540000 FAIL: down_count test Fail, Compare: PREV_DATA:     0 | CURRENT_DATA:     0
+# 
+# 
+# $              560000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 560 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+# End time: 20:06:40 on Aug 10,2023, Elapsed time: 2:17:11
+# Errors: 1, Warnings: 1

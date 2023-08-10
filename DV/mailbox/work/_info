@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/samin/Documents/Ulkasemi/10_days/DV/test1
+Xmailbox_sv_unit
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1691550485
+VD7;FWj46;<D>fnk5?EM4o3
+r1
+!s85 0
+!i10b 1
+!s100 HPY1JYlkHHoE8[Y5^17zL3
+ID7;FWj46;<D>fnk5?EM4o3
+!i103 1
+S1
+Z2 d/home/samin/Documents/Ulkasemi/10_days/DV/mailbox
+Z3 w1691550477
+Z4 8mailbox.sv
+Z5 Fmailbox.sv
+!i122 9
+L0 1 0
+Z6 OV;L;2020.1;71
+31
+Z7 !s108 1691550485.000000
+!s107 mailbox.sv|
+Z8 !s90 -reportprogress|300|mailbox.sv|
+!i113 1
+Z9 tCvgOpt 0
+vtb_top
+R0
+DXx4 work 15 mailbox_sv_unit 0 22 D7;FWj46;<D>fnk5?EM4o3
+R1
+VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+!i10b 1
+!s100 hTJ=bBj0zZ@=nz95JUG^70
+I^kb2=zmdi6g?[l<6WAoRk2
+!s105 mailbox_sv_unit
+S1
+R2
+R3
+R4
+R5
+!i122 9
+L0 30 29
+R6
+31
+R7
+Z10 !s107 mailbox.sv|
+R8
+!i113 1
+R9

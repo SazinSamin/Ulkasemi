@@ -1,0 +1,202 @@
+# Loading project 6
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/test1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:36:13 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:36:13 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 12:36:45 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+quit -sim
+# End time: 12:38:50 on Aug 09,2023, Elapsed time: 0:02:05
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:38:53 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:38:53 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 12:38:53 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.up_down:0
+# count_vif.up_down:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+#  Trace back: invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+#     while executing
+# "$widget index @$x,$y"
+#     (procedure "WaveABar::mouseMotionUpdate" line 19)
+#     invoked from within
+# "WaveABar::mouseMotionUpdate .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data .main_pane.wave.interior.cs.body.pw.wf 754 435"
+#     ("after" script)
+#    <2:/home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+#    <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+# End time: 12:38:59 on Aug 09,2023, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:39:18 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 12:39:18 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.clk:0
+# count_vif.data_out:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+#  Trace back: invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+#     while executing
+# "$widget index @$x,$y"
+#     (procedure "WaveABar::mouseMotionUpdate" line 19)
+#     invoked from within
+# "WaveABar::mouseMotionUpdate .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data .main_pane.wave.interior.cs.body.pw.wf 763 439"
+#     ("after" script)
+#    <2:/home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+#    <1:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+# End time: 12:39:23 on Aug 09,2023, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:26 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:39:26 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 12:39:26 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.clk:0
+# count_vif.data_out:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+# End time: 12:39:31 on Aug 09,2023, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 2

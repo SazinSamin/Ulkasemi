@@ -1,0 +1,12 @@
+/home/samin/Documents/Ulkasemi/10_days/DV/task2.v {1 {vlog -work work -sv -stats=none /home/samin/Documents/Ulkasemi/10_days/DV/task2.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling package task2_v_unit
+-- Compiling module tb_top
+
+Top level modules:
+	tb_top
+
+} {} {}} /home/samin/Documents/Ulkasemi/10_days/DV/task3.sv {1 {vlog -work work -sv -stats=none /home/samin/Documents/Ulkasemi/10_days/DV/task3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+
+} {} {}}

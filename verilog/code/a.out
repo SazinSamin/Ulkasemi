@@ -1,0 +1,29 @@
+#! /usr/bin/vvp
+:ivl_version "11.0 (stable)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/system.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_sys.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/vhdl_textio.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/v2005_math.vpi";
+:vpi_module "/usr/lib/x86_64-linux-gnu/ivl/va_math.vpi";
+S_0x55af8f13e1e0 .scope module, "block" "block" 2 1;
+ .timescale 0 0;
+v0x55af8f13f770_0 .var "a", 1 0;
+v0x55af8f13fbf0_0 .var "b", 1 0;
+    .scope S_0x55af8f13e1e0;
+T_0 ;
+    %vpi_call 2 5 "$monitor", "a: %b, b:%b, time=%t", v0x55af8f13f770_0, v0x55af8f13fbf0_0, $time {0 0 0};
+    %delay 20, 0;
+    %pushi/vec4 0, 0, 2;
+    %store/vec4 v0x55af8f13f770_0, 0, 2;
+    %delay 30, 0;
+    %pushi/vec4 1, 0, 2;
+    %store/vec4 v0x55af8f13fbf0_0, 0, 2;
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "block.v";

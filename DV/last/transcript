@@ -1,0 +1,1108 @@
+# Loading project we
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/last
+cd ..
+# reading /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+ls
+# ask
+# DV_2.cr.mti
+# last
+# test1
+# training
+cd test1
+
+
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# tb_top.sv
+# test1.cr.mti
+# test1.mpf
+# training.cr.mti
+# training.mpf
+# work
+vsim counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv
+# OpenFile counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:29:44 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# ** Error: counter_agent.sv(3): Invalid type 'counter_driver'. Please check the type of the variable 'driver_obj'.
+# ** Error: counter_agent.sv(4): Invalid type 'counter_monitor'. Please check the type of the variable 'monitor_obj'.
+# ** Error: counter_agent.sv(8): (vlog-2730) Undefined variable: 'driver_obj'.
+# ** Error: counter_agent.sv(9): (vlog-2730) Undefined variable: 'monitor_obj'.
+# End time: 23:29:44 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+
+
+
+
+
+
+
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:16 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# ** Error: counter_agent.sv(3): Invalid type 'counter_driver'. Please check the type of the variable 'driver_obj'.
+# ** Error: counter_agent.sv(4): Invalid type 'counter_monitor'. Please check the type of the variable 'monitor_obj'.
+# ** Error: counter_agent.sv(8): (vlog-2730) Undefined variable: 'driver_obj'.
+# ** Error: counter_agent.sv(9): (vlog-2730) Undefined variable: 'monitor_obj'.
+# End time: 23:30:16 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:30:43 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# ** Error: counter_agent.sv(3): Invalid type 'counter_driver'. Please check the type of the variable 'driver_obj'.
+# ** Error: counter_agent.sv(4): Invalid type 'counter_monitor'. Please check the type of the variable 'monitor_obj'.
+# ** Error: counter_agent.sv(8): (vlog-2730) Undefined variable: 'driver_obj'.
+# ** Error: counter_agent.sv(9): (vlog-2730) Undefined variable: 'monitor_obj'.
+# End time: 23:30:43 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:32:30 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# ** Error: counter_agent.sv(3): Invalid type 'counter_driver'. Please check the type of the variable 'driver_obj'.
+# ** Error: counter_agent.sv(4): Invalid type 'counter_monitor'. Please check the type of the variable 'monitor_obj'.
+# ** Error: counter_agent.sv(8): (vlog-2730) Undefined variable: 'driver_obj'.
+# ** Error: counter_agent.sv(9): (vlog-2730) Undefined variable: 'monitor_obj'.
+# End time: 23:32:30 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+
+
+
+
+
+
+vlog counter_driver.sv counter_monitor.sv counter_agent.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:34:24 on Aug 08,2023
+# vlog -reportprogress 300 counter_driver.sv counter_monitor.sv counter_agent.sv 
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# 
+# Top level modules:
+# 	--none--
+# End time: 23:34:24 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# tb_top.sv
+# test1.cr.mti
+# test1.mpf
+# training.cr.mti
+# training.mpf
+# work
+vlog counter_driver.sv counter_monitor.sv counter_agent.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:37:00 on Aug 08,2023
+# vlog -reportprogress 300 counter_driver.sv counter_monitor.sv counter_agent.sv 
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# 
+# Top level modules:
+# 	--none--
+# End time: 23:37:01 on Aug 08,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:37:02 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# ** Error: counter_environment.sv(3): Invalid type 'counter_agent'. Please check the type of the variable 'agent_obj'.
+# ** Error: counter_environment.sv(4): Invalid type 'counter_scoreboard'. Please check the type of the variable 'scoreboard_obj'.
+# ** Error: counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# End time: 23:37:03 on Aug 08,2023, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:37:43 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# ** Warning: counter_agent.sv(4): (vlog-13233) Design unit "counter_agent_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# ** Error: counter_environment.sv(3): Invalid type 'counter_agent'. Please check the type of the variable 'agent_obj'.
+# ** Error: counter_environment.sv(4): Invalid type 'counter_scoreboard'. Please check the type of the variable 'scoreboard_obj'.
+# ** Error: counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# End time: 23:37:43 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:38:45 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# ** Error: (vlog-7) Failed to open design unit file "counter_package" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:38:45 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter__tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:38:59 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter__tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# ** Error: (vlog-7) Failed to open design unit file "counter__tb_package" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:38:59 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+
+
+
+
+
+
+
+
+
+
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# tb_top.sv
+# test1.cr.mti
+# test1.mpf
+# training.cr.mti
+# training.mpf
+# work
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/test1
+vlog counter.sv counter_interface.sv counter__tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:30 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter__tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# ** Error: (vlog-7) Failed to open design unit file "counter__tb_package" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:39:30 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:39:40 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# ** Error: (vlog-7) Failed to open design unit file "counter_tb_package" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:39:40 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:40:16 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# ** Error: (vlog-7) Failed to open design unit file "counter_tb_package" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:40:16 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter_tb_package.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:40:24 on Aug 08,2023
+# vlog -reportprogress 300 counter_tb_package.sv 
+# -- Compiling package counter_tb_package
+# 
+# Top level modules:
+# 	--none--
+# End time: 23:40:24 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog counter.sv counter_interface.sv counter_tb_package
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:40:40 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# ** Error: (vlog-7) Failed to open design unit file "counter_tb_package" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 23:40:40 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:01 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# 
+# Top level modules:
+# 	counter
+# End time: 23:41:01 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:41:49 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# ** Error: counter_environment.sv(3): Invalid type 'counter_agent'. Please check the type of the variable 'agent_obj'.
+# ** Error: counter_environment.sv(4): Invalid type 'counter_scoreboard'. Please check the type of the variable 'scoreboard_obj'.
+# ** Error: counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# End time: 23:41:49 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:42:24 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# ** Error: counter_test.sv(5): Invalid type 'counter_environment'. Please check the type of the variable 'env_obj'.
+# ** Error: counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# End time: 23:42:24 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:42:38 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# ** Warning: counter_test.sv(3): (vlog-13233) Design unit "counter_test_sv_unit" already exists and will be overwritten. Overwriting SystemVerilog $unit with different source files.
+# -- Compiling package counter_test_sv_unit
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:42:38 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:42:50 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# ** Error: counter_test.sv(5): Invalid type 'counter_environment'. Please check the type of the variable 'env_obj'.
+# ** Error: counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# End time: 23:42:50 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:43:00 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: ** while parsing file included at counter_tb_package.sv(7)
+# ** while parsing file included at counter_test.sv(1)
+# ** at counter_environment.sv(1): Typedef 'counter_environment' multiply defined.
+# ** Error: ** while parsing file included at counter_test.sv(1)
+# ** at counter_environment.sv(1): Typedef 'counter_environment' multiply defined.
+# End time: 23:43:00 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:43:22 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: ** while parsing file included at counter_tb_package.sv(7)
+# ** while parsing file included at counter_test.sv(1)
+# ** at counter_environment.sv(1): Typedef 'counter_environment' multiply defined.
+# ** Error: ** while parsing file included at counter_test.sv(1)
+# ** at counter_environment.sv(1): Typedef 'counter_environment' multiply defined.
+# End time: 23:43:22 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter_environment.sv counter_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:43:57 on Aug 08,2023
+# vlog -reportprogress 300 counter_environment.sv counter_test.sv 
+# -- Compiling package counter_environment_sv_unit
+# ** Error: counter_test.sv(3): Invalid type 'counter_environment'. Please check the type of the variable 'env_obj'.
+# ** Error: counter_test.sv(7): (vlog-2730) Undefined variable: 'env_obj'.
+# End time: 23:43:57 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter_environment.sv counter_test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:44:20 on Aug 08,2023
+# vlog -reportprogress 300 counter_environment.sv counter_test.sv 
+# -- Compiling package counter_environment_sv_unit
+# -- Compiling package counter_test_sv_unit
+# 
+# Top level modules:
+# 	--none--
+# End time: 23:44:20 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog counter_tb_package.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:45:19 on Aug 08,2023
+# vlog -reportprogress 300 counter_tb_package.sv 
+# -- Compiling package counter_tb_package
+# 
+# Top level modules:
+# 	--none--
+# End time: 23:45:19 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:09 on Aug 08,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:48:09 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:17 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# ** Error: counter_test.sv(5): Invalid type 'counter_environment'. Please check the type of the variable 'env_obj'.
+# ** Error: counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# End time: 23:48:17 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:59 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# ** Error: counter_test.sv(5): Invalid type 'counter_environment'. Please check the type of the variable 'env_obj'.
+# ** Error: counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# End time: 23:48:59 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# tb_top.sv
+# test1.cr.mti
+# test1.mpf
+# training.cr.mti
+# training.mpf
+# work
+
+
+
+vlog counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:49:04 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_tb_package.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# ** Error: counter_test.sv(5): Invalid type 'counter_environment'. Please check the type of the variable 'env_obj'.
+# ** Error: counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# End time: 23:49:04 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:49:15 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# ** Error: counter_test.sv(5): Invalid type 'counter_environment'. Please check the type of the variable 'env_obj'.
+# ** Error: counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# End time: 23:49:15 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:50:08 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# -- Compiling package counter_test_sv_unit
+# -- Compiling module tb_top
+# ** Error: ** while parsing file included at tb_top.sv(11)
+# ** while parsing file included at counter_test.sv(1)
+# ** at counter_environment.sv(1): Typedef 'counter_environment' multiply defined.
+# End time: 23:50:09 on Aug 08,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:50:34 on Aug 08,2023
+# vlog -reportprogress 300 counter.sv counter_interface.sv counter_monitor.sv counter_driver.sv counter_agent.sv counter_scoreboard.sv counter_environment.sv counter_test.sv tb_top.sv 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_monitor_sv_unit
+# -- Compiling package counter_driver_sv_unit
+# -- Compiling package counter_agent_sv_unit
+# -- Compiling package counter_scoreboard_sv_unit
+# -- Compiling package counter_environment_sv_unit
+# -- Compiling package counter_test_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:50:34 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top.sv
+# OpenFile tb_top.sv
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:52:25 on Aug 08,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** while parsing file included at counter_test.sv(1)
+# ** at counter_environment.sv(1): Typedef 'counter_environment' multiply defined.
+# -- Compiling module tb_top
+# End time: 23:52:25 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:53:01 on Aug 08,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:53:01 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top.sv
+# OpenFile tb_top.sv
+OpenFile tb_top
+# Error opening /home/samin/Documents/Ulkasemi/10_days/DV/test1/tb_top
+# Path name '/home/samin/Documents/Ulkasemi/10_days/DV/test1/tb_top' doesn't exist.
+ll
+# wrong # args: should be "llength list"
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# tb_top.sv
+# test1.cr.mti
+# test1.mpf
+# training.cr.mti
+# training.mpf
+# work
+vsim tb_top
+# vsim tb_top 
+# Start time: 23:54:41 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter_interface
+# Loading work.counter
+# ** Error: (vsim-3043) Unresolved reference to 'counter_interface'.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top File: ./tb_top.sv Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'data_out'. The port definition is at: ./counter.sv(8).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_top/DUT File: ./tb_top.sv Line: 27
+# Error loading design
+# End time: 23:54:41 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# tb_top.sv
+# test1.cr.mti
+# test1.mpf
+# training.cr.mti
+# training.mpf
+# work
+
+
+
+
+
+vsim -f filelist.f
+# OpenFile ./counter.sv ./counter_interface.sv ./counter_tb_package.sv ./tb_top.sv
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:58:22 on Aug 08,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:58:22 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 23:58:28 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter_interface
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#40 File: counter_test.sv Line: 8
+# Environment class created successfully
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 43
+quit sim
+# unknown switch: sim
+
+
+
+
+quit vsim
+# unknown switch: vsim
+
+
+
+
+cd ..
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+
+
+
+
+
+
+qui sim
+# ambiguous command name "qui": quietly quit
+qui simu
+# ambiguous command name "qui": quietly quit
+quit -sim
+# End time: 00:01:18 on Aug 09,2023, Elapsed time: 0:02:50
+# Errors: 1, Warnings: 1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:01:32 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 00:01:32 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 00:01:36 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter_interface
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#40 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(43)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 43
+quit -sim
+# End time: 00:04:55 on Aug 09,2023, Elapsed time: 0:03:19
+# Errors: 1, Warnings: 1
+
+
+
+
+
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:04:58 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: counter_test.sv(9): Number of actuals and formals does not match in function call.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# ** Error: ./tb_top.sv(41): Number of actuals and formals does not match in function call.
+# End time: 00:04:58 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:05:26 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 00:05:26 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:08:21 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# ** Error (suppressible): (vlog-13276) ./tb_top.sv(42): Could not find field/method name (agent_obj) in 'scoreboard_obj' of 'test_obj.env_obj.scoreboard_obj.agent_obj.data'.
+# ** Error (suppressible): (vlog-13276) ./tb_top.sv(43): Could not find field/method name (agent_obj) in 'scoreboard_obj' of 'test_obj.env_obj.scoreboard_obj.agent_obj.display'.
+# End time: 00:08:22 on Aug 09,2023, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:09:14 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# ** Error (suppressible): (vlog-13276) ./tb_top.sv(42): Could not find field/method name (agent_obj) in 'scoreboard_obj' of 'test_obj.env_obj.scoreboard_obj.agent_obj.setData'.
+# ** Error (suppressible): (vlog-13276) ./tb_top.sv(42): Could not find field/method name (agent_obj) in 'scoreboard_obj' of 'test_obj.env_obj.scoreboard_obj.agent_obj.setData.$0'.
+# End time: 00:09:14 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:09:59 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 00:09:59 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:10:14 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 00:10:14 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 00:10:20 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#40 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# data:           0
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+quit -sim
+# End time: 00:12:04 on Aug 09,2023, Elapsed time: 0:01:44
+# Errors: 1, Warnings: 1
+
+
+
+
+
+
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:12:08 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 00:12:08 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 00:12:10 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#40 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# data: x 0
+# $              110000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(46)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 46
+quit -sim
+# End time: 00:13:09 on Aug 09,2023, Elapsed time: 0:00:59
+# Errors: 1, Warnings: 1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:13:11 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 00:13:11 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 00:13:13 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#40 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# passed data: 0
+# data: 0
+# $              110000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(46)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 46
+quit -sim
+# End time: 08:15:12 on Aug 09,2023, Elapsed time: 8:01:59
+# Errors: 1, Warnings: 1
+
+
+
+
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# tb_top.sv
+# test1.cr.mti
+# test1.mpf
+# training.cr.mti
+# training.mpf
+# work
+vlog
+
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:15:38 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 08:15:38 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 08:15:50 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#40 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+quit -sim
+# End time: 08:18:35 on Aug 09,2023, Elapsed time: 0:02:45
+# Errors: 1, Warnings: 1
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 08:18:39 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 08:18:39 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 08:18:39 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#40 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+# End time: 08:54:33 on Aug 09,2023, Elapsed time: 0:35:54
+# Errors: 1, Warnings: 1

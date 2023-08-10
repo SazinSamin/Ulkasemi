@@ -1,0 +1,144 @@
+# Loading project sa
+ls
+# counter_agent.sv
+# counter_driver.sv
+# counter_environment.sv
+# counter_interface.sv
+# counter_monitor.sv
+# counter_scoreboard.sv
+# counter.sv
+# counter_tb_package.sv
+# counter_test.sv
+# filelist.f
+# sa.cr.mti
+# sa.mpf
+# tb_top.sv
+# training.cr.mti
+# training.mpf
+# transcript
+# work
+# z.cr.mti
+# z.mpf
+pws
+# invalid command name "pws"
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/training
+
+
+
+
+
+
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:21:25 on Aug 08,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:21:25 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top.sv
+# OpenFile tb_top.sv
+
+
+
+vsim -d tb_top.sv
+# ** UI-Msg: (vish-3296) Unknown option '-d'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+vsim -do tb_top.sv
+# No design specified
+vsim -do filelist.f
+# No design specified
+
+
+
+
+
+vsim -do tb_top.sv
+# No design specified
+
+
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:24:30 on Aug 08,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:24:30 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top.sv
+# OpenFile tb_top.sv
+# reading /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project we
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/last
+
+
+
+ls
+# auto.do
+# class_obj.sv
+# DV_2.mpf
+# last
+# queue1.sv.bak
+# queue.sv
+# sysV.cr.mti
+# sysV.mpf
+# task2.sv
+# task2.v
+# task2.v.bak
+# task3.sv
+# task_class.sv
+# task_func_class.sv
+# task_func_class.sv.bak
+# transcript
+# we.mpf
+# work
+vsim task_func_class.sv
+# OpenFile task_func_class.sv
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:26:23 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# -- Compiling package task_func_class_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 23:26:23 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 23:26:41 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.task_func_class_sv_unit
+# Loading work.tb_top
+run -all
+# a: 10, b: 20
+# result: 1
+quit sim
+# unknown switch: sim
+
+
+
+
+
+
+
+
+quit
+# End time: 23:27:40 on Aug 08,2023, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 4

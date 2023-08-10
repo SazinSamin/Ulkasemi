@@ -1,0 +1,262 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/samin/intelFPGA/20.1/modelsim_ase/bin
+vcounter
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1691668168
+!i10b 1
+!s100 konQXz_V=zGgHWzj^BESe3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ilf72Lm8`jUk82SLl[m>kH3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!i119 1
+S1
+Z4 d/home/samin/Documents/Ulkasemi/10_days/DV/test3
+w1691576624
+8./counter.sv
+F./counter.sv
+!i122 309
+L0 1 21
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1691668168.000000
+!s107 counter_test.sv|counter_environment.sv|counter_scoreboard.sv|counter_agent.sv|counter_monitor.sv|counter_driver.sv|counter_stimulus.sv|./tb_top.sv|./counter_tb_package.sv|./counter_interface.sv|./counter.sv|
+Z7 !s90 -reportprogress|300|-f|filelist.f|
+!i113 1
+Z8 tCvgOpt 0
+Xcounter_agent_sv_unit
+R0
+Z9 !s110 1691517034
+VhNGdM1U4Z1NNf4[[IF@F01
+r1
+!s85 0
+!i10b 1
+!s100 BKS3YEIOaMYM9FCWYYM@:2
+IhNGdM1U4Z1NNf4[[IF@F01
+!i103 1
+S1
+Z10 d/home/samin/Documents/Ulkasemi/10_days/DV/test1
+w1691516259
+8counter_agent.sv
+Z11 Fcounter_agent.sv
+!i122 60
+L0 4 0
+R5
+31
+Z12 !s108 1691517034.000000
+Z13 !s107 tb_top.sv|counter_test.sv|counter_environment.sv|counter_scoreboard.sv|counter_agent.sv|counter_driver.sv|counter_monitor.sv|counter_interface.sv|counter.sv|
+Z14 !s90 -reportprogress|300|counter.sv|counter_interface.sv|counter_monitor.sv|counter_driver.sv|counter_agent.sv|counter_scoreboard.sv|counter_environment.sv|counter_test.sv|tb_top.sv|
+!i113 1
+R8
+Xcounter_driver_sv_unit
+R0
+R9
+VT036V?M29^80EV?k25ABM1
+r1
+!s85 0
+!i10b 1
+!s100 TIke4mX`2Y735jj4W;UG71
+IT036V?M29^80EV?k25ABM1
+!i103 1
+S1
+R10
+w1691515900
+8counter_driver.sv
+Z15 Fcounter_driver.sv
+!i122 60
+Z16 L0 1 0
+R5
+31
+R12
+R13
+R14
+!i113 1
+R8
+Xcounter_environment_sv_unit
+R0
+R9
+VCMe<dEaCUz6MNjmmOO0W53
+r1
+!s85 0
+!i10b 1
+!s100 `7jV2_ji?1H_8ZQ=_6dKg0
+ICMe<dEaCUz6MNjmmOO0W53
+!i103 1
+S1
+R10
+w1691516543
+8counter_environment.sv
+Z17 Fcounter_environment.sv
+!i122 60
+R16
+R5
+31
+R12
+R13
+R14
+!i113 1
+R8
+Ycounter_interface
+R0
+R1
+!i10b 1
+!s100 lSC_B1l;m1SKo^5GnI=`d3
+R2
+I`B[]F]`I;kKDa9N4FWB;k1
+R3
+S1
+R4
+w1691551167
+8./counter_interface.sv
+F./counter_interface.sv
+!i122 309
+R16
+R5
+r1
+!s85 0
+31
+R6
+Z18 !s107 counter_test.sv|counter_environment.sv|counter_scoreboard.sv|counter_agent.sv|counter_monitor.sv|counter_driver.sv|counter_stimulus.sv|./tb_top.sv|./counter_tb_package.sv|./counter_interface.sv|./counter.sv|
+R7
+!i113 1
+R8
+Xcounter_monitor_sv_unit
+R0
+R9
+VX]I9YWhYY`VZLnDVUh6?93
+r1
+!s85 0
+!i10b 1
+!s100 mf6Pl<ekoH1JRWO::n1PQ2
+IX]I9YWhYY`VZLnDVUh6?93
+!i103 1
+S1
+R10
+w1691515894
+8counter_monitor.sv
+Z19 Fcounter_monitor.sv
+!i122 60
+R16
+R5
+31
+R12
+R13
+R14
+!i113 1
+R8
+Xcounter_scoreboard_sv_unit
+R0
+R9
+VN^k?3NCbGFekW`MdjBK`n2
+r1
+!s85 0
+!i10b 1
+!s100 9`7dS7C@F@42fKX1]:mh02
+IN^k?3NCbGFekW`MdjBK`n2
+!i103 1
+S1
+R10
+w1691514027
+8counter_scoreboard.sv
+Z20 Fcounter_scoreboard.sv
+!i122 60
+R16
+R5
+31
+R12
+R13
+R14
+!i113 1
+R8
+Xcounter_tb_package
+!s115 counter_interface
+R0
+R1
+!i10b 1
+!s100 In]Va@2J<@1n1HRNmPgze3
+R2
+IbRm89Lf[8n@DBlWSbaeob0
+VbRm89Lf[8n@DBlWSbaeob0
+S1
+R4
+w1691668163
+8./counter_tb_package.sv
+F./counter_tb_package.sv
+Fcounter_stimulus.sv
+R15
+R19
+R11
+R20
+R17
+Z21 Fcounter_test.sv
+!i122 309
+R16
+R5
+r1
+!s85 0
+31
+R6
+R18
+R7
+!i113 1
+R8
+Xcounter_test_sv_unit
+R0
+R9
+Vod2E[RcUBNKm8PMY]gHHN2
+r1
+!s85 0
+!i10b 1
+!s100 @I`Y74X@e]zZY=YCCE6<W0
+Iod2E[RcUBNKm8PMY]gHHN2
+!i103 1
+S1
+R10
+w1691517007
+8counter_test.sv
+R21
+R17
+!i122 60
+R16
+R5
+31
+R12
+R13
+R14
+!i113 1
+R8
+vtb_top
+R0
+DXx4 work 18 counter_tb_package 0 22 bRm89Lf[8n@DBlWSbaeob0
+R1
+!i10b 1
+!s100 RGLe8hbgn;`V]6Wb[ZB4B2
+R2
+I2i1h`QnmhC2a63i<5m2`b3
+R3
+S1
+R4
+w1691636432
+8./tb_top.sv
+F./tb_top.sv
+!i122 309
+L0 1 48
+R5
+r1
+!s85 0
+31
+R6
+R18
+R7
+!i113 1
+R8

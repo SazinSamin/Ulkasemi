@@ -1,0 +1,115 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/samin/Documents/Ulkasemi/10_days/DV/test1
+vcounter
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1691515470
+!i10b 1
+!s100 ?n9QVKmg=D=ePMKz?z<i51
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I5z?ES>>UH<hbb?IV;neQm3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 d/home/samin/Documents/Ulkasemi/10_days/DV/training
+w1691494874
+8./counter.sv
+F./counter.sv
+!i122 2
+L0 3 16
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1691515470.000000
+!s107 counter_test.sv|counter_environment.sv|counter_scoreboard.sv|counter_agent.sv|counter_monitor.sv|counter_driver.sv|./tb_top.sv|./counter_tb_package.sv|./counter_interface.sv|./counter.sv|
+Z7 !s90 -reportprogress|300|-f|filelist.f|
+!i113 1
+Z8 tCvgOpt 0
+Ycounter_interface
+R0
+R1
+!i10b 1
+!s100 6RWnJB7:a6bTo]ZPDUXCO3
+R2
+IZQ1klXnCQPRAl0P8KDfC42
+R3
+S1
+R4
+w1691494884
+8./counter_interface.sv
+F./counter_interface.sv
+!i122 2
+Z9 L0 1 0
+R5
+r1
+!s85 0
+31
+R6
+Z10 !s107 counter_test.sv|counter_environment.sv|counter_scoreboard.sv|counter_agent.sv|counter_monitor.sv|counter_driver.sv|./tb_top.sv|./counter_tb_package.sv|./counter_interface.sv|./counter.sv|
+R7
+!i113 1
+R8
+Xcounter_tb_package
+!s115 counter_interface
+R0
+R1
+!i10b 1
+!s100 ijIcN6UF7F[4HNm_g;G`e0
+R2
+IfZz2EbJn3Nhlob0@XihC^3
+VfZz2EbJn3Nhlob0@XihC^3
+S1
+R4
+w1691494894
+8./counter_tb_package.sv
+F./counter_tb_package.sv
+Fcounter_driver.sv
+Fcounter_monitor.sv
+Fcounter_agent.sv
+Fcounter_scoreboard.sv
+Fcounter_environment.sv
+Fcounter_test.sv
+!i122 2
+R9
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8
+vtb_top
+R0
+DXx4 work 18 counter_tb_package 0 22 fZz2EbJn3Nhlob0@XihC^3
+R1
+!i10b 1
+!s100 0TW_UHG>AIV:3ZFRnO2XK2
+R2
+IERT^bB01kIVzXd]HLMEH;3
+R3
+S1
+R4
+w1691494902
+8./tb_top.sv
+F./tb_top.sv
+!i122 2
+L0 1 43
+R5
+r1
+!s85 0
+31
+R6
+R10
+R7
+!i113 1
+R8

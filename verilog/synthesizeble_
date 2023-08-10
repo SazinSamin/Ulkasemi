@@ -1,0 +1,20 @@
+what can be synthesize and what can't in verilog
+
+Synthesizable Constructs:
+
+Combinational Logic: Verilog code that describes combinational logic can be synthesized. This includes logic gates (AND, OR, NOT, etc.), multiplexers, decoders, and other combinational circuits.
+Flip-flops and Latches: Verilog code describing sequential logic elements like D flip-flops and latches can be synthesized.
+Registers: Register-based storage elements can be synthesized.
+Arithmetic and Logical Operations: Basic arithmetic and logical operations can be synthesized, like addition, subtraction, multiplication, and bit-wise operations.
+Finite State Machines (FSMs): Simple FSMs can be synthesized into hardware.
+Memory: Small memories (RAMs) can be synthesized. Larger memories may be inferred, but specific memory structures might be used for better results.
+Non-Synthesizable Constructs:
+
+Procedural Blocks: Procedural blocks like initial and always blocks that are used for testbenches or behavioral modeling are not synthesizable. They describe behavior and not hardware.
+Timing Controls: Timing constructs like #, wait, and delay are not synthesizable since they represent simulation timing and not hardware behavior.
+System Tasks: System tasks like $display and $monitor are not synthesizable because they are used for simulation debugging and not hardware implementation.
+File Operations: Verilog constructs dealing with file I/O are not synthesizable.
+Delays and Real Numbers: Delays based on real numbers are not synthesizable, as synthesis requires discrete-time modeling.
+Conditional Constructs: The synthesizability of conditional constructs like if-else and case statements depends on how they are used. Simple if-else and case statements with parallel assignments can be synthesized, but complex conditional constructs may not be synthesizable.
+
+

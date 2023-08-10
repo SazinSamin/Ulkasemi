@@ -1,0 +1,3 @@
+group discussion
+ki dhoroner verilog porai,like dff, latch, adder.
+generate block, loop

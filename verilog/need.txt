@@ -1,0 +1,22 @@
+difference between behaviroul, structural and data-flow modeling
+
+all dff, counter, latch which are neg trigger or pos trigger
+
+Hierarchical Names
+
+half adder, full adder using half adder.
+demultiplexer
+decoder in chipverify, assign example page
+
+logical and arithmatic shift
+
+replication operator, in concatenation page
+
+dff with for loop testbench
+
+assign deassign, force release
+
+buffif, notif -> gate level modeling
+
+--------------------------------------------
+blocking non-blocking

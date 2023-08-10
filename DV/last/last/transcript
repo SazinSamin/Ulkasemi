@@ -1,0 +1,193 @@
+# Loading project sysV
+# reading /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project DV_2
+# Compile of task3.sv was successful.
+auto.do
+# invalid command name "auto.do"
+# Compile of task3.sv was successful.
+auto.do
+# invalid command name "auto.do"
+do auto.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:59:24 on Aug 08,2023
+# vlog -reportprogress 300 task3.sv 
+# End time: 14:59:24 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim top_module 
+# Start time: 14:59:24 on Aug 08,2023
+# ** Error: (vsim-3170) Could not find 'top_module'.
+#         Searched libraries:
+#             /home/samin/Documents/Ulkasemi/10_days/DV/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./auto.do PAUSED at line 3
+do auto.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:59:43 on Aug 08,2023
+# vlog -reportprogress 300 task3.sv 
+# End time: 14:59:43 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 14:59:24 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.queue1_sv_unit
+# Loading work.tb_top
+# I am scoreboard
+# I am driver
+# I am monitor
+# I am agent
+# I am environment
+# I am test class
+# Error opening /home/samin/Documents/Ulkasemi/10_days/DV/queue1.sv
+# Path name '/home/samin/Documents/Ulkasemi/10_days/DV/queue1.sv' doesn't exist.
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+run -all
+do auto.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:03:13 on Aug 08,2023
+# vlog -reportprogress 300 task3.sv 
+# End time: 15:03:13 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:03:14 on Aug 08,2023, Elapsed time: 0:03:50
+# Errors: 1, Warnings: 7
+# vsim tb_top 
+# Start time: 15:03:14 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.queue1_sv_unit
+# Loading work.tb_top
+# I am scoreboard
+# I am driver
+# I am monitor
+# I am agent
+# I am environment
+# I am test class
+# Compile of task3.sv was successful.
+# Load canceled
+# Compile of task2.v was successful.
+# Compile of task3.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vlog test.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:20:05 on Aug 08,2023
+# vlog -reportprogress 300 test.sv 
+# ** Error: (vlog-7) Failed to open design unit file "test.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:20:05 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:20:28 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# ** Error: (vlog-13069) task_func_class.sv(16): near "t_inst": syntax error, unexpected IDENTIFIER.
+# End time: 15:20:28 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:20:44 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# ** Error: (vlog-13069) task_func_class.sv(15): near ";": syntax error, unexpected ';'.
+# End time: 15:20:44 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+clear
+# [H[2J[3J
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:21:14 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# ** Error: (vlog-13069) task_func_class.sv(16): near "t_inst": syntax error, unexpected IDENTIFIER.
+# End time: 15:21:15 on Aug 08,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:22:05 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# ** Error: (vlog-13069) task_func_class.sv(16): near "t_inst": syntax error, unexpected IDENTIFIER.
+# End time: 15:22:05 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:22:24 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# -- Compiling package task_func_class_sv_unit
+# ** Warning: task_func_class.sv(9): (vlog-2250) Function "display" has no return value assignment.
+# -- Compiling module tb_top
+# ** Warning: task_func_class.sv(19): (vlog-2240) Treating stand-alone use of function 'display' as an implicit VOID cast.
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:22:24 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:22:42 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# -- Compiling package task_func_class_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:22:42 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# End time: 15:22:50 on Aug 08,2023, Elapsed time: 0:19:36
+# Errors: 0, Warnings: 3
+# vsim tb_top 
+# Start time: 15:22:50 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.task_func_class_sv_unit
+# Loading work.tb_top
+vsim tb_top
+# End time: 15:23:34 on Aug 08,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 1
+# vsim tb_top 
+# Start time: 15:23:34 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.task_func_class_sv_unit
+# Loading work.tb_top
+run -all
+# a:          10, b:          20
+run -all
+vlog task_func_class.sv
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:28:28 on Aug 08,2023
+# vlog -reportprogress 300 task_func_class.sv 
+# -- Compiling package task_func_class_sv_unit
+# -- Compiling module tb_top
+# 
+# Top level modules:
+# 	tb_top
+# End time: 15:28:28 on Aug 08,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# End time: 15:28:32 on Aug 08,2023, Elapsed time: 0:04:58
+# Errors: 0, Warnings: 1
+# vsim tb_top 
+# Start time: 15:28:32 on Aug 08,2023
+# Loading sv_std.std
+# Loading work.task_func_class_sv_unit
+# Loading work.tb_top
+run -all
+# a: 10, b: 20
+# result: 1

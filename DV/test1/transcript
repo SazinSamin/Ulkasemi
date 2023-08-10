@@ -1,0 +1,1503 @@
+# Loading project 6
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/test1
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:36:13 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:36:13 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 12:36:45 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+quit -sim
+# End time: 12:38:50 on Aug 09,2023, Elapsed time: 0:02:05
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:38:53 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:38:53 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 12:38:53 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.up_down:0
+# count_vif.up_down:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+#  Trace back: invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+#     while executing
+# "$widget index @$x,$y"
+#     (procedure "WaveABar::mouseMotionUpdate" line 19)
+#     invoked from within
+# "WaveABar::mouseMotionUpdate .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data .main_pane.wave.interior.cs.body.pw.wf 754 435"
+#     ("after" script)
+#    <2:/home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+#    <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+# End time: 12:38:59 on Aug 09,2023, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:18 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:39:18 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 12:39:18 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.clk:0
+# count_vif.data_out:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+#  Trace back: invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"
+#     while executing
+# "$widget index @$x,$y"
+#     (procedure "WaveABar::mouseMotionUpdate" line 19)
+#     invoked from within
+# "WaveABar::mouseMotionUpdate .main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data .main_pane.wave.interior.cs.body.pw.wf 763 439"
+#     ("after" script)
+#    <2:/home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+#    <1:/mtitcl/vsim/vsiminit.tc_:523: ::tk::dialog::error::bgerror {invalid command name ".main_pane.wave.interior.cs.body.pw.wf.grid.row0,wave.data"}
+# End time: 12:39:23 on Aug 09,2023, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:39:26 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:39:26 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 12:39:26 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.clk:0
+# count_vif.data_out:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+# End time: 12:39:31 on Aug 09,2023, Elapsed time: 0:00:05
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:50:31 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 12:50:31 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 12:50:31 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.clk:0
+# count_vif.data_out:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# clk: 0
+# $              500100 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 500100 ps  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+# End time: 12:50:37 on Aug 09,2023, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:13:38 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(7): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(32): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(11): near "task": syntax error, unexpected task.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:13:38 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:13:58 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(7): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 13:13:58 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:14:04 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(7): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 13:14:04 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:14:09 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(7): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 13:14:10 on Aug 09,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/test1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/test1
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:14:49 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(7): near ";": syntax error, unexpected ';', expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# End time: 13:14:49 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:16:15 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(13): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(9): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(12): Illegal declaration after the statement near line '9'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(14): (vlog-2730) Undefined variable: 'monitor_inst'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(25): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:16:15 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 19, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+# reading /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/../modelsim.ini
+# Loading project r
+pwd
+# /home/samin/Documents/Ulkasemi/10_days/DV/test2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:17:14 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:17:14 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 13:17:14 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# count_vif.data_in:    x
+# count_vif.load:x
+# count_vif.ebable:x
+# count_vif.up_down:x
+# count_vif.clk:0
+# count_vif.data_out:    z
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+# End time: 13:17:20 on Aug 09,2023, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 4
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:17:45 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:17:45 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 13:17:45 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+# End time: 13:17:51 on Aug 09,2023, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:18:51 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(12): near "endtask": syntax error, unexpected endtask, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(8): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(13): (vlog-2730) Undefined variable: 'monitor_inst'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(30): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(34): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(45): near "end": syntax error, unexpected end.
+# End time: 13:18:51 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:19:22 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:19:22 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 13:19:22 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# passed data: 10
+# data: 10
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(44)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 44
+# End time: 13:19:28 on Aug 09,2023, Elapsed time: 0:00:06
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:20:35 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# ** Error (suppressible): (vlog-13276) ./tb_top.sv(41): Could not find field/method name (driverLoad) in 'agent_obj' of 'test_obj.env_obj.agent_obj.driverLoad'.
+# End time: 13:20:35 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:21:27 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:21:27 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 13:21:27 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+# End time: 13:23:00 on Aug 09,2023, Elapsed time: 0:01:33
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:23:01 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(13): near "$display": syntax error, unexpected SYSTEM_IDENTIFIER, expecting ';'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(8): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(30): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(34): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:23:01 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:23:13 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(15): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(8): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(30): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(34): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:23:13 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:23:19 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(15): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(8): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(30): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(34): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:23:19 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 20, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:23:37 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(15): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(8): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(13): (vlog-2730) Undefined variable: 'monitor_inst'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(30): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(34): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:23:37 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:23:39 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(15): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(8): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(13): (vlog-2730) Undefined variable: 'monitor_inst'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(30): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(34): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:23:39 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:24:04 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(2)
+# ** at counter_driver.sv(15): near "always": syntax error, unexpected always.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(3)
+# ** at counter_monitor.sv(5): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(8): Illegal declaration after the statement near line '4'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(11): Illegal declaration after the statement near line '8'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(13): (vlog-2730) Undefined variable: 'monitor_inst'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(23): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(30): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(4)
+# ** at counter_agent.sv(34): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(5)
+# ** at counter_scoreboard.sv(6): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(3): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(4): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(10): (vlog-2730) Undefined variable: 'agent_obj'.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(11): (vlog-2730) Undefined variable: 'scoreboard_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(6)
+# ** at counter_environment.sv(13): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(5): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(9): (vlog-2730) Undefined variable: 'env_obj'.
+# ** Error: (vlog-13069) ** while parsing file included at ./counter_tb_package.sv(7)
+# ** at counter_test.sv(10): near "endfunction": syntax error, unexpected endfunction, expecting endtask.
+# ** Error: ./tb_top.sv(18): Illegal declaration after the statement near line '1'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error (suppressible): ./tb_top.sv(26): (vlog-13367) Checkers are not allowed in tasks methods (ignoring this checker instance).
+# ** Error: (vlog-13069) ./tb_top.sv(37): near ";": syntax error, unexpected ';', expecting '('.
+# ** Error: (vlog-13069) ./tb_top.sv(46): near "end": syntax error, unexpected end.
+# End time: 13:24:04 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 21, Warnings: 0
+# ** Error: /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./run.do line 1
+# /home/samin/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -f filelist.f"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:24:37 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:24:37 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 13:24:37 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set initially :x
+# Set initially :x
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+# End time: 13:24:41 on Aug 09,2023, Elapsed time: 0:00:04
+# Errors: 1, Warnings: 2
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:24:52 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:24:52 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 13:25:02 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+add wave -position insertpoint sim:/tb_top/counter_intf/*
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set initially :x
+# Set initially :x
+# $              100000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:26:01 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:26:01 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# End time: 13:26:07 on Aug 09,2023, Elapsed time: 0:01:05
+# Errors: 1, Warnings: 2
+# vsim tb_top 
+# Start time: 13:26:07 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+add wave -position insertpoint sim:/tb_top/counter_intf/*
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set initially :0
+# Set initially :0
+# $              100010 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 100010 ps  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+quit -sim
+# End time: 13:27:10 on Aug 09,2023, Elapsed time: 0:01:03
+# Errors: 1, Warnings: 2
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:27:13 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:27:13 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 13:27:18 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+add wave -position insertpoint sim:/tb_top/counter_intf/*
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set initially :0
+# Set initially :0
+# $              110000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+quit -sim
+# End time: 13:29:38 on Aug 09,2023, Elapsed time: 0:02:20
+# Errors: 1, Warnings: 2
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:29:41 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:29:41 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 13:29:44 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set load :0
+# Set load :0
+# $              110000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+quit -sim
+# End time: 13:30:23 on Aug 09,2023, Elapsed time: 0:00:39
+# Errors: 1, Warnings: 2
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:30:26 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:30:26 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 13:30:28 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set load :x
+# Set load :0
+# $              110000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 110 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:31:20 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:31:20 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+quit -sim
+# End time: 13:31:26 on Aug 09,2023, Elapsed time: 0:00:58
+# Errors: 1, Warnings: 2
+do run.do
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:31:32 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:31:32 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim tb_top 
+# Start time: 13:31:32 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set load :0
+# Set load :0
+# $              112000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 112 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+# End time: 13:31:39 on Aug 09,2023, Elapsed time: 0:00:07
+# Errors: 1, Warnings: 2
+vlog -f filelist.f
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:33:10 on Aug 09,2023
+# vlog -reportprogress 300 -f filelist.f 
+# -- Compiling module counter
+# -- Compiling interface counter_interface
+# -- Compiling package counter_tb_package
+# -- Compiling module tb_top
+# -- Importing package counter_tb_package
+# 
+# Top level modules:
+# 	tb_top
+# End time: 13:33:10 on Aug 09,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim tb_top
+# vsim tb_top 
+# Start time: 13:33:17 on Aug 09,2023
+# Loading sv_std.std
+# Loading work.counter_interface
+# Loading work.counter_tb_package
+# Loading work.tb_top
+# Loading work.counter
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$$display' is not defined.
+#    Time: 0 ps  Iteration: 0  Region: /counter_tb_package::counter_test::new File: counter_test.sv Line: 8
+run -all
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$$display'
+#    Time: 0 ps  Iteration: 0  Process: /tb_top/#INITIAL#39 File: counter_test.sv Line: 8
+# Environment class created successfully
+# agent class created successfully
+# monitor class created successfully
+# driver class created successfully
+# scoreboard class created successfully
+# Driving laod...
+# Set load :0
+# Set load :0
+# $              112000 Simulation time
+# ** Note: $finish    : ./tb_top.sv(45)
+#    Time: 112 ns  Iteration: 0  Instance: /tb_top
+# 1
+# Break in Module tb_top at ./tb_top.sv line 45
+add wave -position insertpoint sim:/tb_top/counter_intf/*
+run -a;;
+# A time value could not be extracted from the current line
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+run -all
+# Break key hit
+# Simulation stop requested.
+# End time: 13:34:43 on Aug 09,2023, Elapsed time: 0:01:26
+# Errors: 1, Warnings: 4

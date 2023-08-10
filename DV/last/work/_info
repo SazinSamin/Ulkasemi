@@ -1,0 +1,159 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/samin/.local/share/Trash/files/exam_sazin_reshed_samin
+Xqueue1_sv_unit
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1691484434
+V<>ZC>7ZZ@8Qj]K@gMHJVz1
+r1
+!s85 0
+!i10b 1
+!s100 ENW6GC0i<na6kZXFZalUG3
+I<>ZC>7ZZ@8Qj]K@gMHJVz1
+!i103 1
+S1
+Z1 d/home/samin/Documents/Ulkasemi/10_days/DV
+w1691484128
+8queue1.sv
+Fqueue1.sv
+!i122 10
+Z2 L0 1 0
+Z3 OV;L;2020.1;71
+31
+!s108 1691484434.000000
+!s107 queue1.sv|
+!s90 -reportprogress|300|queue1.sv|
+!i113 1
+Z4 tCvgOpt 0
+vqueue_example
+R0
+!s110 1691426012
+!i10b 1
+!s100 SBElNZ;nXfG;>4JWNUM1a0
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0UQa9cPc3e`JjKzdGO62<0
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R1
+w1691426009
+Z7 8/home/samin/Documents/Ulkasemi/10_days/DV/queue1.sv
+Z8 F/home/samin/Documents/Ulkasemi/10_days/DV/queue1.sv
+!i122 1
+L0 1 20
+R3
+r1
+!s85 0
+31
+!s108 1691426012.000000
+Z9 !s107 /home/samin/Documents/Ulkasemi/10_days/DV/queue1.sv|
+Z10 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/samin/Documents/Ulkasemi/10_days/DV/queue1.sv|
+!i113 1
+Z11 o-work work -sv
+R4
+vqueue_test
+R0
+!s110 1691425947
+!i10b 1
+!s100 fA6=_^Wbdg`[b_k86ONQW0
+R5
+IRmWP>Mh0dozN>bKmn07261
+R6
+S1
+R1
+w1691425943
+R7
+R8
+!i122 0
+L0 1 18
+R3
+r1
+!s85 0
+31
+!s108 1691425946.000000
+R9
+R10
+!i113 1
+R11
+R4
+Xtask2_v_unit
+R0
+!s110 1691485569
+VFM]`U`C1VLS[TVfd3X1;J3
+r1
+!s85 0
+!i10b 1
+!s100 Y=R7PDR7XmE5ndzWK8oKE3
+IFM]`U`C1VLS[TVfd3X1;J3
+!i103 1
+S1
+R1
+w1691485128
+8/home/samin/Documents/Ulkasemi/10_days/DV/task2.v
+F/home/samin/Documents/Ulkasemi/10_days/DV/task2.v
+!i122 11
+R2
+R3
+31
+!s108 1691485569.000000
+!s107 /home/samin/Documents/Ulkasemi/10_days/DV/task2.v|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/samin/Documents/Ulkasemi/10_days/DV/task2.v|
+!i113 1
+R11
+R4
+Xtask_func_class_sv_unit
+R0
+Z12 !s110 1691515583
+V^45`6l`AkkHW3YCC_0UH12
+r1
+!s85 0
+!i10b 1
+!s100 Bf<HH7_D:KB7OeNJIHX7F1
+I^45`6l`AkkHW3YCC_0UH12
+!i103 1
+S1
+Z13 d/home/samin/Documents/Ulkasemi/10_days/DV/last
+Z14 w1691508961
+Z15 8task_func_class.sv
+Z16 Ftask_func_class.sv
+!i122 15
+R2
+R3
+31
+Z17 !s108 1691515583.000000
+!s107 task_func_class.sv|
+Z18 !s90 -reportprogress|300|task_func_class.sv|
+!i113 1
+R4
+vtb_top
+R0
+DXx4 work 23 task_func_class_sv_unit 0 22 ^45`6l`AkkHW3YCC_0UH12
+R12
+R6
+r1
+!s85 0
+!i10b 1
+!s100 K7A_MeXnSo<7U=<WTL_iM2
+IF]D_3cFe:2>3k3a2D0>e83
+!s105 task_func_class_sv_unit
+S1
+R13
+R14
+R15
+R16
+!i122 15
+L0 19 15
+R3
+31
+R17
+Z19 !s107 task_func_class.sv|
+R18
+!i113 1
+R4

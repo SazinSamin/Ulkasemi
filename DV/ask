@@ -1,0 +1,11 @@
+how to import individual code in systemverilog
+
+
+vlog -f filelist.f
+
+
+
+how this work(there is no always)	
+"@(negedge count_vif.clk) begin
+      count_vif.reset <= 0;
+    end"
